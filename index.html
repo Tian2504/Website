@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beispiel Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Willkommen auf meiner Website!</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Über mich</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Dies ist der Startbereich der Website.</p>
+        </section>
+        <section id="about">
+            <h2>Über mich</h2>
+            <p>Ich bin ein Schüler und lerne Webentwicklung!</p>
+        </section>
+        <section id="contact">
+            <h2>Kontakt</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="message">Nachricht:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Senden</button>
+            </form>
+            <p id="formMessage"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Beispiel Website</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
